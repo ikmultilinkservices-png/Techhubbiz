@@ -294,8 +294,6 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-
     <!-- JavaScript to handle local uploads and dynamic downloads (ADDED) -->
     <script>
         document.getElementById('newsUploadForm').addEventListener('submit', function (e) {
@@ -342,17 +340,10 @@
                 </a>
             `;
 
-            // Insert new post to top of the grid
-            newsGrid.insertBefore(newsCard, newsGrid.firstChild);
-
-            // Reset Form fields
-            document.getElementById('newsUploadForm').reset();
-        });
+            });
     </script>
     <script src="script.js"></script>
-    
     <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/148829491.js"></script>
-
 </body>
 
 </html>
