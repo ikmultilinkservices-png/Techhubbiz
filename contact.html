@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Corporate Enterprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">BrandCorp</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" class="btn">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="section-padding" style="max-width: 600px;">
+            <h2>Get In Touch</h2>
+            <p style="margin-bottom: 2rem;">Fill out the structural form information requirements below to create a
+                direct technical query event.</p>
+            <form onsubmit="event.preventDefault(); alert('Form submitted successfully!');"
+                style="display:flex; flex-direction:column; gap:1.25rem;">
+                <div>
+                    <label style="display:block; margin-bottom:0.5rem; font-weight:500;">Full Name</label>
+                    <input type="text" required
+                        style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:0.375rem;">
+                </div>
+                <div>
+                    <label style="display:block; margin-bottom:0.5rem; font-weight:500;">Email Address</label>
+                    <input type="email" required
+                        style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:0.375rem;">
+                </div>
+                <div>
+                    <label style="display:block; margin-bottom:0.5rem; font-weight:500;">Message</label>
+                    <textarea rows="5" required
+                        style="width:100%; padding:0.75rem; border:1px solid var(--border); border-radius:0.375rem; resize:vertical;"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3>BrandCorp</h3>
+                <p>Building high quality client solutions.</p>
+            </div>
+            <div>
+                <h3>Links</h3>
+                <p><a href="index.html" style="color:#64748b;">Home</a><br><a href="services.html"
+                        style="color:#64748b;">Services</a></p>
+            </div>
+        </div>
+        <div class="footer-copy">&copy; 2026 BrandCorp. All Rights Reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" id="hs-script-loader" async defer
+        src="//js-eu1.hs-scripts.com/148829491.js"></script>
+</body>
+
+</html>
