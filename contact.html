@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Techhubbiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><i class="fas fa-wifi"></i><span>Techhubbiz</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Get in touch with our team today.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-card">
+        <h2>Contact Information</h2>
+        <div class="service-card" style="box-shadow:none; padding:0; background:transparent;">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Address</h3>
+          <p>FCT, Abuja, Nigeria</p>
+        </div>
+        <div class="service-card" style="box-shadow:none; padding:0; background:transparent;">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+234 9065401929</p>
+        </div>
+        <div class="service-card" style="box-shadow:none; padding:0; background:transparent;">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>techhubbiz1@outlook.com</p>
+        </div>
+        <div class="service-card" style="box-shadow:none; padding:0; background:transparent;">
+          <i class="fas fa-clock"></i>
+          <h3>Business Hours</h3>
+          <p>Mon - Sat: 8:00 AM - 6:00 PM</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h2>Send us a Message</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="inquiry">General Inquiry</option>
+              <option value="support">Technical Support</option>
+              <option value="feedback">Feedback</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="form-group checkbox">
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to our newsletter</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="formMessage" class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Techhubbiz</h4>
+        <p>Helping businesses and individuals stay connected and supported.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>+234 9065401929</li>
+          <li>techhubbiz1@outlook.com</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/share/1Ebr9QDGdv/">Facebook</a></li>
+          <li><a href="https://x.com/IkeGod27">Twitter</a></li>
+          <li><a href="https://wa.me/message/5A6BDYI6N4X2K1">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Techhubbiz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
